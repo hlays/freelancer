@@ -41,6 +41,13 @@ li a:hover {
   padding: 10px;
 }
 
+.web-icon {
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+}
+
 footer {
   color: #FFFFFF;
   background-color: #1A252F;
