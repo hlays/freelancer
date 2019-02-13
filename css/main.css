@@ -1,19 +1,36 @@
-/* font-family: 'Lato', sans-serif; */
 html {
   font-family: 'Montserrat', sans-serif;
+  color: #2C3E50;
+}
+
+body {
+  margin: 0;
+  padding: 0;
 }
 
 header {
   background-color: #2C3E50;
+  position: fixed;
+  padding: 20px;
+  width: 100%;  
 }
 
 #navbar {
-  
+  display: flex;
+  justify-content: flex-end;
+}
+
+#start {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: auto;
 }
 
 #navbar li {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
   list-style: none;
-  padding: 20px;
 }
 
 li a {
@@ -23,11 +40,51 @@ li a {
 }
 
 li a:hover {
+  color: #18BC9C;
+}
+
+li a:active {
+  color: #FFFFFF;
   background-color: #18BC9C;
 }
 
 #home {
+  width: 100%;
+  height: 100vh;
   background-color: #18BC9C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.light-line {
+  background-color: #FFFFFF;
+  display: inline-block;
+  width: 60px;
+  height: 2px;
+}
+
+.light-star {
+  color: #FFFFFF;
+}
+
+.dark-line {
+  background-color: #2C3E50;
+  display: inline-block;
+  width: 60px;
+  height: 2px;
+}
+
+.portifolio-galery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.portifolio-galery img {
+  width: 350px;
+  height: 260px;
+  padding: 15px;
 }
 
 .location {
@@ -46,6 +103,10 @@ li a:hover {
   padding: 10px;
   border: 2px solid #FFFFFF;
   border-radius: 50%;
+}
+
+span {
+  color: #18BC9C;
 }
 
 footer {
