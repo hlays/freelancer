@@ -80,9 +80,12 @@ h1 {
 .about {
   background-color: #18BC9C;
   color: #FFFFFF;
-  column-count: 2;
   padding: 50px;
   margin-top: 60px;
+}
+
+.two-columns {
+  column-count: 2;
 }
 
 /* star */
@@ -128,30 +131,43 @@ form {
 
 input {
   border: none;
+  margin-bottom: 30px;
+  padding: 10px;
   border-bottom: 1px solid #F1F1F1;
-  padding-bottom: 30px;
   width: 500px;
+}
+
+label {
+  text-align: left;
+}
+
+textarea {
+  border: none;
+  border-bottom: 1px solid #F1F1F1;
 }
 
 
 /* buttons */
-button .send {
+.send {
   color: #FFFFFF;
   font-weight: bolder;
   background-color: #18BC9C;
-  padding: 10px;
+  margin: 30px;
+  padding: 20px;
+  border: none;
   border-radius: 5px;
+  display: block;
+  margin-left: 420px;
 }
 
-button .download {
+.download {
   color: #FFFFFF;
   font-weight: bolder;
   background-color: #18BC9C;
-  border: #FFFFFF;
+  border: 2px solid #FFFFFF;
   border-radius: 5px;
-  padding: 10px;
+  padding: 20px;
 }
-
 
 /* rodapé */
 footer {
