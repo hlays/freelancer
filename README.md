@@ -1,5 +1,7 @@
 # Freelancer
 
+[Acesse o site Freelancer (réplica)](https://hlays.github.io/freelancer/)
+
 * **Track:** _Common Core_
 * **Curso:** _Criando um site interativo_
 * **Unidad:** _Layout da Web com HTML & CSS_
